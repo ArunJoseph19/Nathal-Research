@@ -35,6 +35,18 @@
             max-width: 50px;
             margin: 0 10px;
         }
+        .description {
+            text-align: center;
+            margin: 20px;
+            font-size: 1.2rem;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            width: 100%;
+            height: 700px;
+        }
     </style>
 </head>
 <body>
@@ -205,6 +217,17 @@
                     <div class="col-md-4">
                         <p>Our other approach of relating characters to known languages, is to compare them with a database of Unicode characters which are saved as images using Noto fonts. We employ Shape Context similarity search to match the characters to their specifc unicode counterparts. These results give us an insight into the most recurrent languages, which inturn also helps us cluster them further to find similar characters in a larger database. <a href="https://people.eecs.berkeley.edu/~malik/papers/BMP-shape.pdf">More on Shape Context Algorithm can be found here</a>.</p>
                     </div>
+                </div>
+            </section>
+    
+        <!-- Section 4: Shape Matcher Tool -->
+            <section class="research-section">
+                <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="section-header">Nathal Matcher Prototype</h2>
+                        </div>
+                        <p>Explore the Unicode Character Finder tool! Draw a shape and discover similar Unicode characters.</p>
+                        <iframe src="https://nathalcatcher.pythonanywhere.com/" title="Unicode Character Finder"></iframe>
                 </div>
             </section>
         </div>
